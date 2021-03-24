@@ -46,7 +46,7 @@ class indexController extends Controller
                   $sql = $this->objM->m_insert($dato);
                   $insert =  $this->db->query($sql);
                   if ($insert) {
-                     echo '<script>alert("Solisto cita con numero ' . $id_insert . '");</script>';
+                     echo '<script>alert("Solicito cita con numero ' . $id_insert . '");</script>';
                   } else {
                      echo '<script>alert("No inserto cita");</script>';
                   }
