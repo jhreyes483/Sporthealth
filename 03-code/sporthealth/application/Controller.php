@@ -25,7 +25,7 @@ protected $_tipo;
       }
      // $this->_view->setCss(array('ind'));
       // $this->_view->setJs(array( 'ind'));
-      $this->_view->titulo = APP_COMPANY . ':: Sistema inteligente de Gestion Empresarial';
+      $this->_view->titulo = APP_COMPANY . ': Nutricion y Salud para toda la familia';
       //if (isset($_SESSION['usuario']) && count($_SESSION['usuario'])  != 0) {
       //}
   }

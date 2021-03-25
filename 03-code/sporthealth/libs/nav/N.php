@@ -23,7 +23,7 @@
     <!-- CSS personalizado -->
     <link rel="stylesheet" href="main.css">
 
-    <!--datables CSS básico-->
+    <!--datables CSS bï¿½sico-->
     <link rel="stylesheet" type="text/css" href="datatables/datatables.min.css" />
     <!--datables estilo bootstrap 4 CSS-->
     <link rel="stylesheet" type="text/css" href="datatables/DataTables-1.10.18/css/dataTables.bootstrap4.min.css">
@@ -52,7 +52,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,59,55,1) 35%);">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL.'nutricion' ?>">INICIO</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL.'nutricion/asignar' ?>">PACIENTES</a> </li>  
-                    <li class="nav-item"> <a class="nav-link" href="#contact">REPORTES</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL.'nutricion/reportes' ?>">REPORTES</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="<?= BASE_URL.'index/cerrar' ?>">CERRAR SESION</a> </li>
                 </ul>
             </div>

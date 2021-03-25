@@ -17,7 +17,7 @@ body .bg-img {
   padding-bottom: 100px;
 }
 body nav {
-  background:black;
+  background-color: black;
 }
 body nav .navbar-nav a {
   font-size: 16px;
@@ -72,7 +72,7 @@ a, a:hover {
   width: 38px;
   left: 0;
   top: 0;
-  background: url("../images/right-quote.png");
+  background: url("../img/images/right-quote.png");
   background-repeat: no-repeat;
 }
 .fh5co-banner-text-box .quote-box::after {
@@ -80,7 +80,7 @@ a, a:hover {
   position: absolute;
   height: 38px;
   width: 38px;
-  background: url("../images/left-quote.png");
+  background: url("../img/images/left-quote.png");
   background-repeat: no-repeat;
   right: 0;
   bottom: 0;
@@ -116,7 +116,7 @@ a, a:hover {
   margin-bottom: 0;
 }
 .fh5co-network h4, .fh5co-about-us h4, .fh5co-network h5, .fh5co-about-us h5, .fh5co-network p, .fh5co-about-us p {
-  color: #282828;
+  color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
 }

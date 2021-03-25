@@ -12,10 +12,9 @@ class indexController extends Controller
    public function index(){
       @session_start();
       session_destroy();
-      $this->_view->setCss(array('font-Montserrat', 'google', 'bootstrap.min', 'jav', 'animate', 'fontawesome-all'));
-      //   $this->_view->setJs(array('jquery-1.9.0', 'bootstrap.min', 'popper.min', 'fontawasome-ico', 'cUsuariosJquery', 'tablesorter-master/jquery.tablesorter'));
-      $this->_view->setJs(['cUsuariosJquery']);
-      $this->_view->setCss(['style']);
+      $this->_view->setCss(['animate', 'bootstrap', 'bootstrap.min', 'style']);
+      $this->_view->setJs(['bootstrap', 'bootstrap.min', 'jquery.min', 'main', 'parallax', 'wow']);
+     
       $this->_view->renderizar('index');
    }
 

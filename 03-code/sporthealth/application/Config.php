@@ -12,9 +12,9 @@ define('BASE_URL', 'https://localhost/sporthealth/');
 define('DEFAULT_CONTROLLER', 'index');
 define('DEFAULT_LAYOUT', 'layout1');
 
-define('APP_NAME', 'Sistema de Gesti�n Empresarial');
+define('APP_NAME', 'Nutricion y salud para toda la familia');
 //define('APP_SLOGAN', 'Cualquier slogan');
-define('APP_COMPANY', 'AMOBLANDO');
+define('APP_COMPANY', 'Sporthealth');
 define('SESSION_TIME', 60);
 
 define('RUTA_ICONO', '/ico/');

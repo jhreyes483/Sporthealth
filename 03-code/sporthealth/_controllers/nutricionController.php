@@ -12,8 +12,8 @@ class nutricionController extends Controller
       $this->objM = $this->loadModel('userModel', 'userModel');
       $this->db = new Conexion;
       parent::__construct();
-      $this->_view->setCss(array('font-Montserrat', 'google', 'bootstrap.min', 'jav', 'animate', 'fontawesome-all'));
-      //   $this->_view->setJs(array('jquery-1.9.0', 'bootstrap.min', 'popper.min', 'fontawasome-ico', 'cUsuariosJquery', 'tablesorter-master/jquery.tablesorter'))
+      $this->_view->setCss(['animate', 'bootstrap', 'bootstrap.min', 'style']);
+      $this->_view->setJs(['bootstrap', 'bootstrap.min', 'jquery.min', 'main', 'parallax', 'wow']);
       $this->param = $this->getParam();
    }
    //
